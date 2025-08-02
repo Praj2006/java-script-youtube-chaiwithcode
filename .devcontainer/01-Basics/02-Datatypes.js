@@ -19,5 +19,5 @@ let prof=null // Stand Alone Function
 console.log(typeof"Prashant");
 console.log(typeof null);
 console.log(typeof undefined);
-    
+
     
