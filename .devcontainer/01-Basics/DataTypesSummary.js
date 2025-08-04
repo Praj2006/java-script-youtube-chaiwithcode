@@ -46,3 +46,45 @@ const myFunction=function(){
     console.log("HELLO WORLD");
     
 }
+
+// **********************************MEMORY*****************************************
+//STACK MEMORY => PRIMITIVE DATATYPE
+/*
+EXAMPLE
+┌────────────┐
+│    50      │  ← Top
+├────────────┤
+│    30      │
+├────────────┤
+│    20      │
+├────────────┤
+│    10      │
+└────────────┘
+*/
+//HEAP MEMORY => NON PRIMITIVE DATATYPE
+/*
+EXAMPLE:
+        [10]
+       /    \
+   [20]     [15]
+   /  \     /  \
+[40][50] [30][60]
+
+*/
+
+//*************************************************************************************************************
+let myYoutubeName="ElevateClasses.com"
+let anotherName=myYoutubeName;
+anotherName="CHAIWITHCODE"
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+let userTwo=userOne
+userTwo.email="prashnt2006@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
